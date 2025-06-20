@@ -5,7 +5,7 @@ include "config.php";
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>SPK Metode SMART</title>
+	<title>SPK-KEJAKSAAN NEGERI LHOKSEUMAWE</title>
     <link href="css/metro.css" rel="stylesheet">
     <link href="css/metro-icons.css" rel="stylesheet">
     <link href="css/metro-schemes.css" rel="stylesheet">
@@ -15,11 +15,11 @@ include "config.php";
 </head>
 <body onload="runPB1()">
     <div class="app-bar">
-		<a class="app-bar-element" href="login.php">SPK Metode SMART</a>
+		<a class="app-bar-element" href="login.php">SISTEM PENILAIAN PEGAWAI KEJAKSAAN NEGERI LHOKSEUMAWE</a>
 		<a class="app-bar-element place-right">About</a>
 	</div>
 	
-	<h2 style="text-align:center;margin:100px auto 0 auto;">Login Member</h2>
+	<h2 style="text-align:center;margin:100px auto 0 auto;">Login</h2>
 	<div style="margin:15px auto;width:320px;background:#eee;border:1px solid #ddd;padding:20px;">
 		<?php
 		if(isset($_POST['username']) && isset($_POST['password'])){

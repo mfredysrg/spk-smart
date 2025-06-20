@@ -1,10 +1,5 @@
 <?php
-// session_start();
-// session_destroy();
-// header('location: login.php');
-
-session_start()_;
-session_destroy();
-header('location: laporan.php');
+session_start(); // Memulai sesi
+session_destroy(); // Menghancurkan semua data sesi
+header('location: laporan.php'); // Mengarahkan pengguna kembali ke halaman laporan.php
 ?>
-

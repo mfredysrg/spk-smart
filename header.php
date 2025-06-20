@@ -11,7 +11,7 @@ if(!isset($_SESSION['username'])){
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>SPK Metode SMART</title>
+	<title>SPK-Kejaksaan Negeri Lhokseumawe</title>
     <link href="css/metro.css" rel="stylesheet">
     <link href="css/metro-icons.css" rel="stylesheet">
     <link href="css/metro-schemes.css" rel="stylesheet">
@@ -19,27 +19,7 @@ if(!isset($_SESSION['username'])){
 </head>
 <body>
     <div class="app-bar">
-		<a class="app-bar-element" href="...">SPK Metode SMART</a>
-		<span class="app-bar-divider"></span>
-		<ul class="app-bar-menu">
-			<li><a href="kriteria.php">Kriteria</a></li>
-			<li><a href="subkriteria.php">Sub Kriteria</a></li>
-			<li><a href="alternatif.php">Alternatif</a></li>
-			<li><a href="perangkingan.php">Perangkingan</a></li>
-			<li><a target="_blank" href="laporan.php">Laporan</a></li>
-			<!--<li>
-				<a href="" class="dropdown-toggle">Laporan</a>
-				<ul class="d-menu" data-role="dropdown">
-					<li><a href="">Direct</a></li>
-					<li><a href="">FPDF</a></li>
-					<li><a href="">phpToPDF</a></li>
-					<li><a href="">TCPDF</a></li>
-					<li><a href="">Dompdf</a></li>
-					<li><a href="">Zend_Pdf</a></li>
-					<li><a href="">PDFlib</a></li>
-					<li><a href="">mPDF</a></li>
-				</ul>
-			</li>-->
+		<a class="app-bar-element" href="...">Kejaksaan Negeri Lhokseumawe</a>
 		</ul>
 		<a href="logout.php" class="app-bar-element place-right">Logout</a>
 	</div>
