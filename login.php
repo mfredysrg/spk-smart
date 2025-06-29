@@ -37,7 +37,7 @@ if ($_SESSION['login_attempt'] >= $max_attempt) {
     <script src="js/metro.js"></script>
     <style>
         body {
-            background-image: url('assets/background.jpg');
+            background-image: url('assets/backgound.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
